@@ -1,0 +1,78 @@
+.blog {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  border: 1px solid var(--pink);
+  width: 1120px;
+}
+
+.imageContainer {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+  object-position: center;
+}
+
+.infoContainer {
+  padding: 15px 30px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 15px;
+}
+
+.generalInfo {
+  display: grid;
+  grid-template-columns: 40px auto;
+  gap: 10px;
+  grid-template-areas:
+  "avatar name"
+  "avatar date";
+}
+
+.avatar {
+  grid-area: avatar;
+  position: relative;
+}
+
+.avatar .image {
+  border-radius: 100px;
+}
+
+.name {
+  grid-area: name;
+  margin: 0;
+  padding: 0;
+}
+
+.createdAt {
+  grid-area: date;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: var(--grey);
+}
+
+.textInfo {
+  display: grid;
+  gap: 20px;
+}
+
+.activityInfo {
+  border-top: 1px solid var(--pink);
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  justify-items: end;
+  gap: 25px;
+}
+
+.activitySection {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 5px;
+}

@@ -1,0 +1,16 @@
+.header {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  background-color: rgb(255 255 255 / 10%);
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  text-decoration: none;
+}

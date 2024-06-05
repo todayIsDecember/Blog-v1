@@ -1,0 +1,17 @@
+.button {
+  margin: 0;
+  padding: 10px 0px 10px 0px;
+  border-radius: 10px;
+  background-color: var(--white);
+  color: var(--black);
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: .3s ease;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: var(--black);
+  color: var(--pink-lighter);
+}

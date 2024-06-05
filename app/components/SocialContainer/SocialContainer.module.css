@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(6, 20px);
+  justify-content: center;
+}
+
+.link {
+  transition: .2s ease;
+}
+
+.link:hover {
+  transform: scale(1.2);
+}

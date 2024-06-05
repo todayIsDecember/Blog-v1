@@ -1,0 +1,15 @@
+.wrapper {
+  background-color: var(--pink-lighter);
+  min-height: 100dvh;
+  display: grid;
+  justify-content: center;
+  padding: 140px 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(320px, 1fr);
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+}

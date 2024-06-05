@@ -1,0 +1,33 @@
+.footer {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  bottom: 0px;
+  padding: 30px 0px;
+  backdrop-filter: blur(10px);
+  background-color: rgb(255 255 255 / 10%);
+}
+
+.link {
+  text-decoration: none;
+  transition: .2s ease;
+}
+
+.link:hover {
+  transform: scale(1.1);
+}
+
+.politics {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 40px;
+}
+
+.info {
+  display: grid;
+  justify-content: center;
+}

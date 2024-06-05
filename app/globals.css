@@ -1,0 +1,17 @@
+:root {
+  --bg-gradient: linear-gradient(93deg, rgba(251,111,146,1) 0%, rgba(255,229,236,1) 90%);
+  --pink-lighter: #ffe5ec;
+  --pink-light: #ffc2d1;
+  --pink: #ffb3c6;
+  --pink-dark: #ff8fab;
+  --pink-darker: #fb6f92;
+  --white: #f8f9fa;
+  --black: #343a40;
+  --grey: #6c757d
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

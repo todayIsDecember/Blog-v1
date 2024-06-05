@@ -1,0 +1,51 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100dvh;
+}
+
+.photoSection {
+  background: url('/images/bg.jpg');
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+}
+
+.photo {
+  border-radius: 25px;
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.5);
+  transition: .3s ease;
+}
+
+.photo:hover {
+  transform: scale(1.05);
+}
+
+.photoContainer {
+  position: relative;
+  width: 336px;
+  height: 480px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.infoSection {
+  background: var(--pink-lighter);
+  display: grid;
+  grid-template-columns: 400px;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+}
+
+.btnsBlcok {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}

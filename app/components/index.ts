@@ -1,0 +1,6 @@
+export * from './Text/Text'
+export * from './Button/Button'
+export * from './SocialContainer/SocialContainer'
+export * from './Header/Header'
+export * from './Footer/Footer'
+export * from './CardBlog/CardBlog'
