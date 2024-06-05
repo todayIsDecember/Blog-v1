@@ -12,6 +12,6 @@
 }
 
 .button:hover {
-  background-color: var(--black);
-  color: var(--pink-lighter);
+  background-color: var(--text-color);
+  color: var(--background-color);
 }

@@ -26,7 +26,7 @@ export default function Home() {
           <Text size="m">Studied in London.</Text>
         </div>
         <div className={styles.btnsBlcok}>
-          <Link href={'./blog'}><Button>Blog</Button></Link>
+          <Link className={styles.link} href={'./blog'}><Button>Blog</Button></Link>
           <Button>Podkast</Button>
           <Button>Projects</Button>
           <Button>contact with me</Button>

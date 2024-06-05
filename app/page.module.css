@@ -14,7 +14,7 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(5px);
+  backdrop-filter: var(--background-filter);
 }
 
 .photo {
@@ -36,7 +36,7 @@
 }
 
 .infoSection {
-  background: var(--pink-lighter);
+  background: var(--background-color);
   display: grid;
   grid-template-columns: 400px;
   justify-content: center;
@@ -48,4 +48,9 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--black);
 }

@@ -1,5 +1,5 @@
 .wrapper {
-  background-color: var(--pink-lighter);
+  background-color: var(--background-color);
   min-height: 100dvh;
   display: grid;
   justify-content: center;
